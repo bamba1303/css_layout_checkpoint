@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+
+  }
+  
+  .navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+
+  
+  }
+
+
+
+.logo-docplanner{
+  width: 268px;
+  
+}
+
+.navigation-container{
+text-decoration: none;
+}
+
+.about-us,
+.career,
+.departments{
+  text-decoration: none;
+  color: #ABABAB;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+.slogan_logo_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction:column;
+  margin-top: 2.5rem;
+  
+}
+
+.logo{
+  width: 40px;
+  height: auto;
+}
+
+.slogan{
+  font-size: 1rem;
+  color: #00b39b;
+  text-align: center;
+  font-family: sans-serif;
+   
+}
+.paragraphe{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin-block-start: 2rem;
+  color: #8b8888;
+  margin-left: 13rem;
+  margin-right: 10rem;
+}
+
+.menu_container{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+.item_container{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  align-items: center;
+  width: 73%;
+  margin-left: 15%;
+  align-items: center;
+
+}
+
+.for_patients{
+  background-color: #00ccb1;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 345px;
+  width: 316px;
+  color: white;
+}
+
+.for_doctors{
+background-color:#3d83df;
+border-radius: 10px;
+flex-direction: column;
+justify-content: space-between;
+height: 345px;
+width: 316px;
+color: white;
+}
+
+.for_clinics{
+background-color: #1b2734;
+border-radius: 10px;
+flex-direction: column;
+justify-content: space-between;
+height: 345px;
+width: 316px;
+color: white;
+}
+
+.for_patients
+.for_doctors
+.for_clinics{
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.section_partenaire{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_section_partenaire{
+  float: left;
+  width: 33%;
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  padding-right: 1em;
+  color: #00ccb1 ;
+}
+
+.logo_partenaire{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.logo_partenaire img{
+  filter: grayscale(1);
+  width: 7rem;
+
+  
+}
+
+.logo_partenaire svg{
+  fill:gray;
+  width: 8.5rem;
+}
+.section-statistic {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+  background-color: #d7f5f5;
+  z-index: 400;
+  width: 100%;
+  
+}
+
+.flag {
+  position: absolute;
+  bottom: -2px;
+  left: 40px;
+}
+
+.stats {
+  display: flex;
+  align-items: space-between;
+}
+
+.colon1, .colon2 {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  width: 50%;
+}
+
+.colon1 {
+  margin-top: 20px;
+}
+
+.colon1 div, .colon2 div {
+  margin: 0 20px 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.stats1,.stats2,.stats3,.stats4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-flow: wrap column;
+  padding:  20px;
+  z-index: 554;
+  margin: 30px;
+
+  
+}
+
+.colon1>div h1, .colon2>div h1 {
+  padding-left: 20px;
+}
+
+.section-statistic h1 {
+  font-size: 26px;
+  color: #03c5ab;
+  
+}
+
+.statistics-line p {
+  font-size: 17px;
+  color: #8a8a8a;
+}
+
+.stats p {
+  font-size: 13px;
+  color: #8a8a8a;
+  text-align: center;
+}
+
+.stats h3 {
+  font-size: 17px;
+  color: #03c5ab;
+  text-align: center;
+}
+
+.inside-statistics {
+  padding: 20px 0px;
+}
+*/
+.first_office{
+  border: 0.5px dotted gainsboro;
+}
+.section-image{
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-image-container{
+  width: 90%;
+}
+
+.section-image h1 {
+  font-weight: 300;
+  color: #00b39b;
+  text-align: center;
+
+}
+.section-image p {
+  color: #8a8a8a;
+
+}
+
+.offices-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  
+}
+
+
+
+.office_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 12px;
+  grid-row-gap: 9px;
+  width: 75%;
+  
+  
+  }
+  
+  .office_un { grid-area: 1 / 1 / 2 / 2; }
+  .office_deux { grid-area: 1 / 2 / 2 / 3; }
+  .office_trois { grid-area: 1 / 3 / 2 / 4; }
+  .office_quatre { grid-area: 2 / 1 / 3 / 2; }
+  .office_cinq { grid-area: 2 / 2 / 3 / 3; }
+  .office_six { grid-area: 2 / 3 / 3 / 4; }
+  .office_sept { grid-area: 3 / 1 / 4 / 2; }
+  .office_huit { grid-area: 3 / 2 / 4 / 3; }
+  .office_neuf { grid-area: 3 / 3 / 4 / 4; }
+  .office_dix { grid-area: 4 / 1 / 5 / 2; }
+
+  .join_us {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    width: 100%;
+    
+  
+ 
+  }
+  
+  .joint_us h1{
+    font-size: 1.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+    font-family: Work,Arial, sans-serif;
+    font-weight: 100;
+    
+  }
+  
+  .join_us button{
+    background-color: #4383DF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+    
+  }
+
+  .office-description button{
+    background-color: #4383DF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+  .office-description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+    
+  }
+
+
+
+
+.footer-inside p {
+  text-align: center;
+  font-size: 12px;
+  line-height: 3;
+  color: #8a8a8a;
+  font-weight: 400;
+}
+
+.footer-inside>div p {
+  line-height: 0.7;
+  font-weight: 400;
+}
+
+.footer-inside {
+  margin: 10px 0px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #106fec;
+}
+
+footer hr{
+  border:0.1px solid #8a8a8a26;
+}
+
+.section-stats{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 85vh;
+  background-color: #DBF7F7;
+}
+
+
+.stat-cards{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-stats-container{
+  width: 70%;
+  display: flex;
+  height: 85vh;
+}
+
+.stat-first-cards{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stat-first-cards-container{
+  width: 80%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.stat-second-cards-container{
+  width: 80%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.stat-second-cards{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-text{
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+}
+
+.header-text-container{
+  height: 90%;
+}
+
+.header-text-container h1{
+  color: #18BBC8;
+  font-size: 2.6em;
+  font-weight: lighter;
+}
+
+.header-text-container p{
+  color: grey;
+  line-height: 1.5;
+}
+
+
+.stat-cards{
+  width: 50%;
+}
+
+.first-card,
+.second-card,
+.third-card,
+.fourth-card{
+  background-color: white;
+  border-radius: 5px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.first-card p,
+.second-card p,
+.third-card p,
+.fourth-card p{
+  color: grey;
+  font-size: .8em;
+  padding: 0 15px;
+}
+
+.first-card h1,
+.second-card h1,
+.third-card h1,
+.fourth-card h1{
+  color: #18BBC8;
+  font-weight: lighter;
+}
+
+
+
+/*
+.carte_contenair{
+  display: flex;
+background-color: #DBF7F6;
+}
+
+.cart_number_one{
+  background-color: yellowgreen;
+  align-items: center;
+  justify-content: center;
+}
+
+  /*
+.navigation-menu{
+    display: flex;
+  
+}
+
+  
+ .logo-docplanner{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 100px;
+    height: 20px;
+    background-color: red;
+  }
+
+  .h1{
+    align-items: center;
+    text-align: center;
+    color: #03c5ab;
+  }
+  
+  .career {
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    padding-top: 70px;
+    color: #ababab;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .departments {
+    font-size: 15px;
+    color: #ababab;
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  .about-us {
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: #03c5ab;
+  }
+  
+  .navigation-menu {
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    padding-right: 30px;
+  }
+
+  body {
+    padding-top: 100px;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  .logo {
+    width: 35px;
+    height: auto;
+  }
+  
+ .for-patients {
+    display: block;
+    text-align: left;
+    background-color: #00ccb1;
+    margin: 0 12px;
+    width: 450px;
+    height: 380px;
+  }
+  
+  .for-doctors {
+    display: block;
+    background-color: #3d83df;
+    display: block;
+    text-align: center;
+    margin: 12px;
+    height: 380px;
+    width: 450px;
+
+  }
+  .for-clinics {
+    background-color: #070f1a;
+    display: block;
+    text-align: right;
+    margin: 0 12px;
+    height: 380px;
+    width: 450px;
+  }
+
+
+
+  footer {
+    border:0.1px solid #8a8a8a26;
+    color: #106fec;
+} */
